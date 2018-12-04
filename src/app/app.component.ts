@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'module-application';
+  router=[
+    {
+      text:'Authentication',
+      path:'authentication'
+    },
+    {
+      text:'Setting',
+      path:'setting'
+    }
+  ]
 }
